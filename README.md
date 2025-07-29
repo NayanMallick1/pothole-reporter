@@ -7,8 +7,12 @@
 ---
 
 ## 📸 Screenshot
+**UI**
+<img width="1421" height="694" alt="image" src="https://github.com/user-attachments/assets/129e9359-26b5-4ebf-9591-98f1242d23e6" />
+**DATABASE**
+<img width="690" height="167" alt="image" src="https://github.com/user-attachments/assets/39bec22a-46a9-437d-8678-b80e495386be" />
 
-![Uploading image.png…]()
+
 
 
 
