@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f9f9f9;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+input[type="text"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+input[readonly] {
+    background-color: #f1f1f1;
+    cursor: not-allowed;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+}
+
+.risk-options {
+    margin-top: 10px;
+}
+
+.risk-options label {
+    margin-right: 15px;
+}
+
+video, canvas, img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 18px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start-btn { background-color: #6c757d; color: white; }
+.capture-btn { background-color: #007bff; color: white; }
+.stop-btn { background-color: #dc3545; color: white; }
+.location-btn { background-color: #17a2b8; color: white; }
+.submit-btn {
+    background-color: #28a745;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
